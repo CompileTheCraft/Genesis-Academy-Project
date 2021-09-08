@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  height: calc(100vh - 10vh);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  color: #006aff;
+}
+
+h2 {
+  color: #006aff;
+}
+
+.hobbies1 {
+  background-color: #ffffff;
+  height: 42vh;
+  width: 20vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.hobbies2 {
+  background-color: #ffffff;
+  height: 42vh;
+  width: 20vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.hobbies3 {
+  background-color: #ffffff;
+  height: 42vh;
+  width: 20vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.hobbies4 {
+  background-color: #ffffff;
+  height: 42vh;
+  width: 20vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+img {
+  height: 242px;
+  width: 242px;
+  border-radius: 10px;
+}
+
+button {
+  height: 5vh;
+  width: 8vw;
+  background-color: #006aff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  margin-top: 30px;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(0, 106, 255, 0.8);
+  cursor: pointer;
+}

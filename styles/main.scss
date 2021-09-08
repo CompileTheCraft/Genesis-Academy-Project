@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('sports/main.scss');
+@import url('hobbies/main.scss');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  height: calc(100vh - 10vh);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sports {
+  height: 60vh;
+  width: 30vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.hobbies {
+  height: 60vh;
+  width: 30vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #006aff;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+a {
+  height: 7vh;
+  width: 10vw;
+  background-color: #006aff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(0, 106, 255, 0.8);
+  cursor: pointer;
+}
